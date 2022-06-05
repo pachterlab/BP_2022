@@ -1,0 +1,86 @@
+{
+    "GSM5917802": {
+        "accession": "GSM5917802",
+        "supplementary_files": [
+            {
+                "accession": "GSM5917802",
+                "filename": "GSM5917802_cells_counts_Three_Ill.txt.gz",
+                "filetype": null,
+                "filesize": 37190,
+                "filenumber": 1,
+                "md5": null,
+                "urltype": "ftp",
+                "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5917nnn/GSM5917802/suppl/GSM5917802_cells_counts_Three_Ill.txt.gz"
+            },
+            {
+                "accession": "GSM5917802",
+                "filename": "GSM5917802_cells_counts_Three_Ult.txt.gz",
+                "filetype": null,
+                "filesize": 37190,
+                "filenumber": 2,
+                "md5": null,
+                "urltype": "ftp",
+                "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5917nnn/GSM5917802/suppl/GSM5917802_cells_counts_Three_Ult.txt.gz"
+            },
+            {
+                "accession": "GSM5917802",
+                "filename": "GSM5917802_genes_counts_Three_Ill.txt.gz",
+                "filetype": null,
+                "filesize": 243918,
+                "filenumber": 3,
+                "md5": null,
+                "urltype": "ftp",
+                "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5917nnn/GSM5917802/suppl/GSM5917802_genes_counts_Three_Ill.txt.gz"
+            },
+            {
+                "accession": "GSM5917802",
+                "filename": "GSM5917802_genes_counts_Three_Ult.txt.gz",
+                "filetype": null,
+                "filesize": 243918,
+                "filenumber": 4,
+                "md5": null,
+                "urltype": "ftp",
+                "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5917nnn/GSM5917802/suppl/GSM5917802_genes_counts_Three_Ult.txt.gz"
+            },
+            {
+                "accession": "GSM5917802",
+                "filename": "GSM5917802_expression_counts_Three_Ill.txt.gz",
+                "filetype": null,
+                "filesize": 35938012,
+                "filenumber": 5,
+                "md5": null,
+                "urltype": "ftp",
+                "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5917nnn/GSM5917802/suppl/GSM5917802_expression_counts_Three_Ill.txt.gz"
+            },
+            {
+                "accession": "GSM5917802",
+                "filename": "GSM5917802_expression_counts_Three_Ult.txt.gz",
+                "filetype": null,
+                "filesize": 30694163,
+                "filenumber": 6,
+                "md5": null,
+                "urltype": "ftp",
+                "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5917nnn/GSM5917802/suppl/GSM5917802_expression_counts_Three_Ult.txt.gz"
+            }
+        ],
+        "platform": {
+            "accession": "GPL24676",
+            "title": "Illumina NovaSeq 6000 (Homo sapiens)"
+        },
+        "samples": {
+            "SRS12110744": {
+                "accession": "SRS12110744",
+                "title": "3' PBMC",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "peripheral blood mononuclear cells (PBMCs)",
+                    "10x technology": "3'",
+                    "sample type": "PBMC",
+                    "ENA-FIRST-PUBLIC": "2022-06-01",
+                    "ENA-LAST-UPDATE": "2022-06-01"
+                },
+                "experiments": null
+            }
+        }
+    }
+}

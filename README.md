@@ -75,9 +75,9 @@ samtools stats mapped.bam |  grep ^ID | cut -f 2- > indels.txt
 samtools view mapped.bam | cut -f10 -d$'\t' | tr -d '\n' | wc -c
 ```
 
-Ultima
+Ultima Genomics
 --
-Ultima reads have the following structure:
+Ultima Genomics reads have the following structure:
 - (read1) 22bp insert
 - (read1) 26bp cell barcode
 - (read1) 12bp umi
@@ -99,7 +99,7 @@ Note:
 kb count -x 0,22,38:0,38,50:0,62,117
 ```
 
-The Ultima reads were trimmed so that the minimum cDNA length was 31bp with [`seqkit`](https://github.com/shenwei356/seqkit)
+The Ultima Genomics reads were trimmed so that the minimum cDNA length was 31bp with [`seqkit`](https://github.com/shenwei356/seqkit)
 ```bash
 # trim cDNA reads
 seqkit subseq -r 63:-1 SRR18145555.fastq.gz | gzip > cdna_63.fastq.gz

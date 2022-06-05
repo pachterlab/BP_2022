@@ -1,6 +1,10 @@
+This Github repository contains the code to reproduce the figures and results from the preprint "Pseudoalignment facilitates assignment of
+error-prone Ultima Genomics reads" by Sina Booeshaghi and Lior Pachter.
+
+
 Downloading data
 --
-Metadata was fetched with [`ffq`](https://github.com/pachterlab/ffq/)
+Metadata was retrieved with [`ffq`](https://github.com/pachterlab/ffq/)
 ```bash
 ffq -o ffq_GSM5917802.json GSM5917802
 ```
@@ -80,7 +84,7 @@ Ultima reads have the following structure:
 - (read1) 12bp polyT homopolymer
 - (read1) XXbp cDNA
 
-Reads were pseudoaligned using [`kb-python`](https://github.com/pachterlab/kb_python), using the entire cDNA
+Reads were pseudoaligned using [`kb-python`](https://github.com/pachterlab/kb_python)
 ```bash
 # entire cDNA
 kb count --strand unstranded -o out_full-transcriptome -i human/index -x 10xv3_Ultima -g t2g.txt --h5ad -m 16G -t 16 SRR18145555.fastq.gz

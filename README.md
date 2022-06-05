@@ -26,7 +26,7 @@ wget https://genome-idx.s3.amazonaws.com/hisat/grch38_genome.tar.gz
 tar -xvf grch38_genome.tar.gz
 ```
 
-The TMSB4X fasta was downloaded with (`gget`)[https://github.com/pachterlab/gget], and indexed with `kallisto` and `hisat2`.
+The TMSB4X fasta was downloaded with [`gget`](https://github.com/pachterlab/gget), and indexed with [`kallisto`](https://github.com/pachterlab/kallisto) and [`hisat2`](https://github.com/DaehwanKimLab/hisat2).
 ```bash
 # download tmsb4x fasta
 gget seq -id ENST00000380636.1 -o TMSB4X_ENST00000380636.1.fasta -st gene
@@ -47,7 +47,7 @@ Illumina reads have the following structure:
 - (read 1) 12bp umi
 - (read 2) 55bp cDNA
 
-Reads were pseudoaligned to the human transcriptome and to the TMSB4X gene using (`kb-python`)[https://github.com/pachterlab/kb_python]
+Reads were pseudoaligned to the human transcriptome and to the TMSB4X gene using [`kb-python`](https://github.com/pachterlab/kb_python)
 ```bash
 # pseudoalign to transcriptome
 kb count --strand unstranded -o out-transcriptome -i human/index -x 10xv3 -g t2g.txt --h5ad -m 16G -t 16 SRR18145553_1.fastq.gz SRR18145553_2.fastq.gz
@@ -56,7 +56,7 @@ kb count --strand unstranded -o out-transcriptome -i human/index -x 10xv3 -g t2g
 kb count --strand unstranded -o out-tmsb4x -i tmsb4x/index -x 10xv3 -g t2g.txt --h5ad -m 16G -t 16 SRR18145553_1.fastq.gz SRR18145553_2.fastq.gz
 ```
 
-HISAT2 alignments and alignment stats were made by 
+Alignments and alignment stats were made using [`samtools`](https://github.com/samtools/samtools) and [`hisat2`](https://github.com/DaehwanKimLab/hisat2).
 ```bash
 # map to tmsb4x
 hisat2 -p 32 -x tmsb4x/genome -U SRR18145553_2.fastq.gz -S output.sam
@@ -80,7 +80,7 @@ Ultima reads have the following structure:
 - (read1) 12bp polyT homopolymer
 - (read1) XXbp cDNA
 
-Reads were pseudoaligned using (`kb-python`)[https://github.com/pachterlab/kb_python], using the entire cDNA
+Reads were pseudoaligned using [`kb-python`](https://github.com/pachterlab/kb_python), using the entire cDNA
 ```bash
 # entire cDNA
 kb count --strand unstranded -o out_full-transcriptome -i human/index -x 10xv3_Ultima -g t2g.txt --h5ad -m 16G -t 16 SRR18145555.fastq.gz
@@ -95,7 +95,7 @@ Note:
 kb count -x 0,22,38:0,38,50:0,62,117
 ```
 
-The Ultima reads were trimmed so that the minimum cDNA length was 31bp.
+The Ultima reads were trimmed so that the minimum cDNA length was 31bp with [`seqkit`](https://github.com/shenwei356/seqkit)
 ```bash
 # trim cDNA reads
 seqkit subseq -r 63:-1 SRR18145555.fastq.gz | gzip > cdna_63.fastq.gz
@@ -104,7 +104,7 @@ seqkit subseq -r 63:-1 SRR18145555.fastq.gz | gzip > cdna_63.fastq.gz
 seqkit seq -m 31 cdna_63.fastq.gz | gzip > cdna_31_min.fastq.gz
 ```
 
-HISAT2 alignments and alignment stats were made by 
+Alignments and alignment stats were made using [`samtools`](https://github.com/samtools/samtools) and [`hisat2`](https://github.com/DaehwanKimLab/hisat2).
 ```bash
 # map to tmsb4x
 hisat2 -p 32 -x tmsb4x/genome -U cdna_31_min.fastq.gz -S output.sam

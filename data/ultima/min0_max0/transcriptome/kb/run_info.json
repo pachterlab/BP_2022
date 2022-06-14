@@ -1,0 +1,13 @@
+{
+	"n_targets": 0,
+	"n_bootstraps": 0,
+	"n_processed": 127942138,
+	"n_pseudoaligned": 70748133,
+	"n_unique": 20610742,
+	"p_pseudoaligned": 55.3,
+	"p_unique": 16.1,
+	"kallisto_version": "0.48.0",
+	"index_version": 0,
+	"start_time": "Wed Jun  8 19:44:30 2022",
+	"call": "/home/sina/bin/miniconda3/lib/python3.7/site-packages/kb_python/bins/linux/kallisto/kallisto bus -i ../../../../reference/transcriptome/index -o kb/ -x 0,22,38:0,38,50:0,62,0 -t 16 --unstranded ../../SRR18145555.fastq.gz"
+}

@@ -1,0 +1,13 @@
+{
+	"n_targets": 0,
+	"n_bootstraps": 0,
+	"n_processed": 127942138,
+	"n_pseudoaligned": 244440,
+	"n_unique": 244440,
+	"p_pseudoaligned": 0.2,
+	"p_unique": 0.2,
+	"kallisto_version": "0.48.0",
+	"index_version": 0,
+	"start_time": "Thu Jun  9 02:23:54 2022",
+	"call": "/home/sina/bin/miniconda3/lib/python3.7/site-packages/kb_python/bins/linux/kallisto/kallisto bus -i ../../../reference/tmsb4x/index -o tmsb4x/kb/ -x 0,22,38:0,38,50:0,62,117 -t 16 --unstranded ../SRR18145555.fastq.gz"
+}

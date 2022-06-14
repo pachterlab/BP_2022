@@ -6,7 +6,18 @@ Downloading data
 --
 Metadata was retrieved with [`ffq`](https://github.com/pachterlab/ffq/)
 ```bash
-ffq -o ffq_GSM5917802.json GSM5917802
+ffq -o ffq_GSM5917802.json GSM5917802 # Single-cell Illumina/Ultima
+ffq -o ffq_GSM6190598.json GSM6190598 # Perturb-seq Illumina
+ffq -o ffq_GSM5917802.json GSM5917802 # Perturb-seq Ultima
+```
+
+and downloaded with wget
+```
+Perturb-Seq Illumina Cell Line
+wget --quiet --show-progress https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6190nnn/GSM6190598/suppl/GSM6190598_illumina_cellranger.tar.gz
+
+Perturb-Seq Ultima Cell Line
+wget --quiet --show-progress https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6190nnn/GSM6190599/suppl/GSM6190599_ultima_cellranger.tar.gz
 ```
 
 SRA files for sequencing reads were downloaded and then converted to FASTQ files

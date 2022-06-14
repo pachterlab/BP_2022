@@ -12,11 +12,19 @@ ffq -o ffq_GSM5917802.json GSM5917802 # Perturb-seq Ultima
 ```
 
 and downloaded with wget
-```
-Perturb-Seq Illumina Cell Line
+```bash
+# Illumina / Ultima single-cell count matrices
+wget --quiet --show-progress ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5917nnn/GSM5917802/suppl/GSM5917802_cells_counts_Three_Ill.txt.gz
+wget --quiet --show-progress ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5917nnn/GSM5917802/suppl/GSM5917802_cells_counts_Three_Ult.txt.gz
+wget --quiet --show-progress ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5917nnn/GSM5917802/suppl/GSM5917802_genes_counts_Three_Ill.txt.gz
+wget --quiet --show-progress ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5917nnn/GSM5917802/suppl/GSM5917802_genes_counts_Three_Ult.txt.gz
+wget --quiet --show-progress ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5917nnn/GSM5917802/suppl/GSM5917802_expression_counts_Three_Ill.txt.gz
+wget --quiet --show-progress ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5917nnn/GSM5917802/suppl/GSM5917802_expression_counts_Three_Ult.txt.gz
+
+# Perturb-Seq Illumina Cell Line
 wget --quiet --show-progress https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6190nnn/GSM6190598/suppl/GSM6190598_illumina_cellranger.tar.gz
 
-Perturb-Seq Ultima Cell Line
+# Perturb-Seq Ultima Cell Line
 wget --quiet --show-progress https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6190nnn/GSM6190599/suppl/GSM6190599_ultima_cellranger.tar.gz
 ```
 

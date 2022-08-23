@@ -8,7 +8,7 @@ Metadata was retrieved with [`ffq`](https://github.com/pachterlab/ffq/)
 ```bash
 ffq -o ffq_GSM5917802.json GSM5917802 # Single-cell Illumina/Ultima
 ffq -o ffq_GSM6190598.json GSM6190598 # Perturb-seq Illumina
-ffq -o ffq_GSM5917802.json GSM5917802 # Perturb-seq Ultima
+ffq -o ffq_GSM6190599.json GSM6190599 # Perturb-seq Ultima
 ```
 
 and downloaded with wget

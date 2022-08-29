@@ -1,0 +1,216 @@
+{
+    "GSM6297379": {
+        "accession": "GSM6297379",
+        "supplementary_files": [
+            {
+                "accession": "GSM6297379",
+                "filename": "GSM6297379_cells_counts_Three_Ult.txt.gz",
+                "filetype": null,
+                "filesize": 37190,
+                "filenumber": 1,
+                "md5": null,
+                "urltype": "ftp",
+                "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6297nnn/GSM6297379/suppl/GSM6297379_cells_counts_Three_Ult.txt.gz"
+            },
+            {
+                "accession": "GSM6297379",
+                "filename": "GSM6297379_genes_counts_Three_Ult.txt.gz",
+                "filetype": null,
+                "filesize": 243918,
+                "filenumber": 2,
+                "md5": null,
+                "urltype": "ftp",
+                "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6297nnn/GSM6297379/suppl/GSM6297379_genes_counts_Three_Ult.txt.gz"
+            },
+            {
+                "accession": "GSM6297379",
+                "filename": "GSM6297379_expression_counts_Three_Ult.txt.gz",
+                "filetype": null,
+                "filesize": 30694163,
+                "filenumber": 3,
+                "md5": null,
+                "urltype": "ftp",
+                "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6297nnn/GSM6297379/suppl/GSM6297379_expression_counts_Three_Ult.txt.gz"
+            }
+        ],
+        "platform": {
+            "accession": "GPL10400",
+            "title": "454 GS (Homo sapiens)"
+        },
+        "samples": {
+            "SRS13723021": {
+                "accession": "SRS13723021",
+                "title": "3' PBMC Ultima",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "peripheral blood mononuclear cells (PBMCs)",
+                    "10x technology": "3'",
+                    "sample type": "PBMC",
+                    "ENA-FIRST-PUBLIC": "2022-07-08",
+                    "ENA-LAST-UPDATE": "2022-07-08"
+                },
+                "experiments": {
+                    "SRX16043372": {
+                        "accession": "SRX16043372",
+                        "title": "454 GS sequencing; GSM6297379: 3' PBMC Ultima; Homo sapiens; RNA-Seq",
+                        "platform": "LS454",
+                        "instrument": "454 GS",
+                        "runs": {
+                            "SRR20002549": {
+                                "accession": "SRR20002549",
+                                "experiment": "SRX16043372",
+                                "study": "SRP361502",
+                                "sample": "SRS13723021",
+                                "title": "454 GS sequencing; GSM6297379: 3' PBMC Ultima; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-FIRST-PUBLIC": "2022-07-10",
+                                    "ENA-LAST-UPDATE": "2022-07-10"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR20002549",
+                                            "filename": "SRR20002549.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 45364799287,
+                                            "filenumber": 1,
+                                            "md5": "dd9585c6b56c503bde15418cd5cc54c3",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR200/049/SRR20002549/SRR20002549.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR20002549",
+                                            "filename": "GEX.Ult.3.Sing.run1.fastq.gz.2",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-11/SRR20002549/GEX.Ult.3.Sing.run1.fastq.gz.2"
+                                        },
+                                        {
+                                            "accession": "SRR20002549",
+                                            "filename": "SRR20002549",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR20002549/SRR20002549"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR20002549",
+                                            "filename": "GEX.Ult.3.Sing.run1.fastq.gz.2",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-src-10/SRR20002549/GEX.Ult.3.Sing.run1.fastq.gz.2"
+                                        },
+                                        {
+                                            "accession": "SRR20002549",
+                                            "filename": "SRR20002549.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-run-6/SRR20002549/SRR20002549.1"
+                                        }
+                                    ],
+                                    "ncbi": []
+                                }
+                            },
+                            "SRR20002550": {
+                                "accession": "SRR20002550",
+                                "experiment": "SRX16043372",
+                                "study": "SRP361502",
+                                "sample": "SRS13723021",
+                                "title": "454 GS sequencing; GSM6297379: 3' PBMC Ultima; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-FIRST-PUBLIC": "2022-07-10",
+                                    "ENA-LAST-UPDATE": "2022-07-10"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR20002550",
+                                            "filename": "SRR20002550.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 17587912236,
+                                            "filenumber": 1,
+                                            "md5": "343672f0c4c256307ae1726fa10c541e",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR200/050/SRR20002550/SRR20002550.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR20002550",
+                                            "filename": "GEX.Ult.3.Sing.run2.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-17/SRR20002550/GEX.Ult.3.Sing.run2.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR20002550",
+                                            "filename": "SRR20002550",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR20002550/SRR20002550"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR20002550",
+                                            "filename": "GEX.Ult.3.Sing.run2.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-src-17/SRR20002550/GEX.Ult.3.Sing.run2.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR20002550",
+                                            "filename": "SRR20002550.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-run-11/SRR20002550/SRR20002550.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR20002550",
+                                            "filename": "SRR20002550",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR20002550/SRR20002550"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

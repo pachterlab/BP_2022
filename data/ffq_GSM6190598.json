@@ -1,0 +1,269 @@
+{
+    "GSM6190598": {
+        "accession": "GSM6190598",
+        "supplementary_files": [
+            {
+                "accession": "GSM6190598",
+                "filename": "GSM6190598_illumina_cellranger.tar.gz",
+                "filetype": null,
+                "filesize": 42062323491,
+                "filenumber": 1,
+                "md5": null,
+                "urltype": "ftp",
+                "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6190nnn/GSM6190598/suppl/GSM6190598_illumina_cellranger.tar.gz"
+            }
+        ],
+        "platform": {
+            "accession": "GPL24676",
+            "title": "Illumina NovaSeq 6000 (Homo sapiens)"
+        },
+        "samples": {
+            "SRS13168480": {
+                "accession": "SRS13168480",
+                "title": "K562 cells expressing dCas9-KRAB [Illumina sequencing]",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "CML",
+                    "cell type": "K562",
+                    "tissue": "CML",
+                    "sequencing instrument": "Illumina NovaSeq 6000",
+                    "age": "unperturbed",
+                    "ENA-FIRST-PUBLIC": "2022-05-27",
+                    "ENA-LAST-UPDATE": "2022-05-27"
+                },
+                "experiments": {
+                    "SRX15446041": {
+                        "accession": "SRX15446041",
+                        "title": "Illumina NovaSeq 6000 paired end sequencing; GSM6190598: K562 cells expressing dCas9-KRAB [Illumina sequencing]; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina NovaSeq 6000",
+                        "runs": {
+                            "SRR19391246": {
+                                "accession": "SRR19391246",
+                                "experiment": "SRX15446041",
+                                "study": "SRP376915",
+                                "sample": "SRS13168480",
+                                "title": "Illumina NovaSeq 6000 paired end sequencing; GSM6190598: K562 cells expressing dCas9-KRAB [Illumina sequencing]; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "loader": "fastq-load.py",
+                                    "ENA-FIRST-PUBLIC": "2022-05-29",
+                                    "ENA-LAST-UPDATE": "2022-05-29"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR19391246",
+                                            "filename": "SRR19391246.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 17239189350,
+                                            "filenumber": 1,
+                                            "md5": "1697c4152ededd0f1d17cb932c01130b",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR193/046/SRR19391246/SRR19391246.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR19391246",
+                                            "filename": "illumina_S1_L001_I1_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 3,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-9/SRR19391246/illumina_S1_L001_I1_001.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR19391246",
+                                            "filename": "illumina_S1_L001_R1_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-9/SRR19391246/illumina_S1_L001_R1_001.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR19391246",
+                                            "filename": "illumina_S1_L001_R2_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 2,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-15/SRR19391246/illumina_S1_L001_R2_001.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR19391246",
+                                            "filename": "SRR19391246",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR19391246/SRR19391246"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR19391246",
+                                            "filename": "illumina_S1_L001_I1_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 3,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-src-15/SRR19391246/illumina_S1_L001_I1_001.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR19391246",
+                                            "filename": "illumina_S1_L001_R1_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-src-15/SRR19391246/illumina_S1_L001_R1_001.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR19391246",
+                                            "filename": "illumina_S1_L001_R2_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 2,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-src-16/SRR19391246/illumina_S1_L001_R2_001.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR19391246",
+                                            "filename": "SRR19391246.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-run-6/SRR19391246/SRR19391246.1"
+                                        }
+                                    ],
+                                    "ncbi": []
+                                }
+                            },
+                            "SRR19391247": {
+                                "accession": "SRR19391247",
+                                "experiment": "SRX15446041",
+                                "study": "SRP376915",
+                                "sample": "SRS13168480",
+                                "title": "Illumina NovaSeq 6000 paired end sequencing; GSM6190598: K562 cells expressing dCas9-KRAB [Illumina sequencing]; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "loader": "fastq-load.py",
+                                    "ENA-FIRST-PUBLIC": "2022-05-29",
+                                    "ENA-LAST-UPDATE": "2022-05-29"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR19391247",
+                                            "filename": "SRR19391247.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 17037575129,
+                                            "filenumber": 1,
+                                            "md5": "ebc4720f60158ebcb598c51032587554",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR193/047/SRR19391247/SRR19391247.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR19391247",
+                                            "filename": "SRR19391247",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR19391247/SRR19391247"
+                                        },
+                                        {
+                                            "accession": "SRR19391247",
+                                            "filename": "illumina_S1_L002_R2_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 2,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-8/SRR19391247/illumina_S1_L002_R2_001.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR19391247",
+                                            "filename": "illumina_S1_L002_R1_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-8/SRR19391247/illumina_S1_L002_R1_001.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR19391247",
+                                            "filename": "illumina_S1_L002_I1_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 3,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-7/SRR19391247/illumina_S1_L002_I1_001.fastq.gz.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR19391247",
+                                            "filename": "SRR19391247.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-run-2/SRR19391247/SRR19391247.1"
+                                        },
+                                        {
+                                            "accession": "SRR19391247",
+                                            "filename": "illumina_S1_L002_R2_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 2,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-src-9/SRR19391247/illumina_S1_L002_R2_001.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR19391247",
+                                            "filename": "illumina_S1_L002_R1_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-src-9/SRR19391247/illumina_S1_L002_R1_001.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR19391247",
+                                            "filename": "illumina_S1_L002_I1_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 3,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-src-8/SRR19391247/illumina_S1_L002_I1_001.fastq.gz.1"
+                                        }
+                                    ],
+                                    "ncbi": []
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

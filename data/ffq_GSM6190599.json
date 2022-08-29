@@ -1,0 +1,139 @@
+{
+    "GSM6190599": {
+        "accession": "GSM6190599",
+        "supplementary_files": [
+            {
+                "accession": "GSM6190599",
+                "filename": "GSM6190599_ultima_cellranger.tar.gz",
+                "filetype": null,
+                "filesize": 21412806339,
+                "filenumber": 1,
+                "md5": null,
+                "urltype": "ftp",
+                "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6190nnn/GSM6190599/suppl/GSM6190599_ultima_cellranger.tar.gz"
+            }
+        ],
+        "platform": {
+            "accession": "GPL24676",
+            "title": "Illumina NovaSeq 6000 (Homo sapiens)"
+        },
+        "samples": {
+            "SRS13168482": {
+                "accession": "SRS13168482",
+                "title": "K562 cells expressing dCas9-KRAB [Ultima sequencing]",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "CML",
+                    "cell type": "K562",
+                    "tissue": "CML",
+                    "sequencing instrument": "Ultima",
+                    "age": "unperturbed",
+                    "ENA-FIRST-PUBLIC": "2022-05-27",
+                    "ENA-LAST-UPDATE": "2022-05-27"
+                },
+                "experiments": {
+                    "SRX15446042": {
+                        "accession": "SRX15446042",
+                        "title": "Illumina NovaSeq 6000 paired end sequencing; GSM6190599: K562 cells expressing dCas9-KRAB [Ultima sequencing]; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina NovaSeq 6000",
+                        "runs": {
+                            "SRR19391245": {
+                                "accession": "SRR19391245",
+                                "experiment": "SRX15446042",
+                                "study": "SRP376915",
+                                "sample": "SRS13168482",
+                                "title": "Illumina NovaSeq 6000 paired end sequencing; GSM6190599: K562 cells expressing dCas9-KRAB [Ultima sequencing]; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "loader": "fastq-load.py",
+                                    "options": "--read2PairFiles=ultima_S1_L001_R2_001.fastq.gz",
+                                    "ENA-FIRST-PUBLIC": "2022-05-29",
+                                    "ENA-LAST-UPDATE": "2022-05-29"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR19391245",
+                                            "filename": "SRR19391245.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 21557419833,
+                                            "filenumber": 1,
+                                            "md5": "e5bbe2b99ce681699eb0ebeb4bb9ac84",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR193/045/SRR19391245/SRR19391245.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR19391245",
+                                            "filename": "SRR19391245",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR19391245/SRR19391245"
+                                        },
+                                        {
+                                            "accession": "SRR19391245",
+                                            "filename": "ultima_S1_L001_R2_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 2,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-4/SRR19391245/ultima_S1_L001_R2_001.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR19391245",
+                                            "filename": "ultima_S1_L001_R1_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-4/SRR19391245/ultima_S1_L001_R1_001.fastq.gz.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR19391245",
+                                            "filename": "SRR19391245.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-run-12/SRR19391245/SRR19391245.1"
+                                        },
+                                        {
+                                            "accession": "SRR19391245",
+                                            "filename": "ultima_S1_L001_R2_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 2,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-src-11/SRR19391245/ultima_S1_L001_R2_001.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR19391245",
+                                            "filename": "ultima_S1_L001_R1_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-src-11/SRR19391245/ultima_S1_L001_R1_001.fastq.gz.1"
+                                        }
+                                    ],
+                                    "ncbi": []
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
